@@ -32,7 +32,7 @@ etf_list = [x.strip().upper() for x in etf_input.split(',')]
 
 # 3. 觀察名單
 st.sidebar.subheader("⚡ 市場觀察名單")
-default_watch = "NVDA, TSLA, AAPL, MSFT, PLTR, TSM, JPM"
+default_watch = "NVDA, TSLA, AAPL, MSFT, PLTR, TSM, JPM, RKLB, IONQ, RXRX"
 watch_input = st.sidebar.text_area("觀察名單", default_watch)
 watchlist = [x.strip().upper() for x in watch_input.split(',')]
 
